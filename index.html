@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlspecialchars_decode</title>
+</head>
+<body>
+   <form action="login.php" method="post">
+  <p>Username: <input type="text" name="username" placeholder="enter your name"></p>
+   <p> password:<input type="password" name="password" placeholder="enter your password"></p>
+   <p> password:<input type="email" name="email" placeholder="enter your email"></p>
+     <p>
+        <input type="checkbox" name="data[]" value="php">Php
+        <input type="checkbox" name="data[]" value="javascript">javascript
+        <input type="checkbox" name="data[]" value="html">html
+        <input type="checkbox" name="data[]" value="css">Css
+     </p>
+     <select name="city" id="city">
+        <option hidden>Select your city</option>
+        <option value="kathnamdu">Kathmandu</option>
+        <option value="pokhara">Pokhara</option>
+        <option value="lalitpur">Lalitpur</option>
+     </select>
+     <p>
+        <textarea name="textarea" id="textarea"></textarea>
+     </p>
+     <button type="submit" name="submit" value="krishna">submit</button>
+   </form>
+</body>
+</html>
