@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE friendlist SYSTEM "firendlist.dtd">
+<friendlist>
+    <friend>
+        <name>Ram</name>
+    </friend>
+    <friend>
+        <name>Sam</name>
+    </friend>
+    <friend>
+        <name>Sam</name>
+    </friend>
+    <bestfriend love="very">
+        <name>Hari</name>
+    </bestfriend>
+   
+</friendlist>
+
+<!--TODO: here ? can occure only one time whereas friend can occur many times -->

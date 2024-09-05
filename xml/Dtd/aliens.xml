@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aliens SYSTEM "learnDtd.dtd">
+<aliens>
+    <alien aid="A1" lang="java">
+        <name>Prajwol</name>
+        <salary>100000</salary>
+    </alien>
+    <alien aid="A2" lang="javascript">
+        <name>Krishna</name>
+        <salary>2000000</salary>
+    </alien>
+    <alien aid="A2" lang="python">
+        <name>Krishna</name>
+        <salary>2000000</salary>
+    </alien>
+    <friend>
+        <name>Radha</name>
+        <nickname>Rani</nickname>
+    </friend>
+    
+</aliens>
+
+<!-- CDATA: Specifies that attribute values are treated as plain text with no special parsing. For attributes.
+
+Example: <!ATTLIST alien aid CDATA #REQUIRED>
+
+#PCDATA: Indicates that element content is text that can include special characters and entities, which are parsed by the XML processor.
+
+Example: <!ELEMENT name (#PCDATA)> -->

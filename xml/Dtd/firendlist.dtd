@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT friendlist (friend+,bestfriend?)>
+<!ELEMENT friend (name)>
+<!ELEMENT bestfriend (name)>
+<!ATTLIST bestfriend love CDATA #IMPLIED>
+<!ELEMENT name (#PCDATA)>
