@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <table xmlns="https://example.com/html4">
+        <tr>
+            <td>Apples</td>
+            <td>Banana</td>
+        </tr>
+    </table>
+    <table xmlns="https://example.com/furniture">
+       <name>COffee Table</name>
+       <width>10</width>
+       <height>20</height>
+    </table>
+</root>
+<!-- TODO: to prevent from using prfixes again and again we use default namespaces -->

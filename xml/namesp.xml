@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:h="https://example.com/h" xmlns:f="https://example1.com/f">
+    <h:table >
+      <h:tr>
+        <h:td>Apples</h:td>
+        <h:td>Bananas</h:td>
+      </h:tr>
+    </h:table>
+
+    <f:table >
+        <f:width>80</f:width>
+        <f:height>120</f:height>
+    </f:table>
+</root>

@@ -10,3 +10,16 @@
         <name>Hari</name>
     </bestfriend>
 </friendlist>
+<!-- what is xml  -->
+ <!-- ? xml stands for extensible query language which is basically designed for store and transport the data. It was designed so that both humnan and machine can read and understand easily. since it doesnot has a predifined tag...we must define our tags. it was designed to carry data not for displaying of the data.As xml is language independent and platform independent -->
+
+ <!-- !rules for writing xml  -->
+  <!-- 1. xml must have root elements -->
+   <!-- 2. xml must be closed by tags properly -->
+    <!-- 3. xml elements mustnot contain white spaces -->
+     <!-- 4.all tags must be properly nested -->
+      <!-- 5. tags are case sensitive -->
+       <!-- 6. attributes must appear with the quotes -->
+<!-- ?xml schema languages  -->
+ <!-- TODO: 1. DTD Document type Definition-->
+  <!-- TODO: 2. XSD-xml schemal definitation -->
