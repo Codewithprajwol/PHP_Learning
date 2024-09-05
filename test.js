@@ -1,4 +1,4 @@
- {
+ const data= {
    "book":[
       {
          "id":"01",
@@ -12,3 +12,4 @@
       }
    ]
 }
+export {data}
