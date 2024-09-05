@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<friendlist>
+    <friend>
+        <name>Ram</name>
+    </friend>
+    <friend>
+        <name>Sam</name>
+    </friend>
+    <bestfriend>
+        <name>Hari</name>
+    </bestfriend>
+</friendlist>
