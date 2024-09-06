@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define the root element -->
+    <xs:element name="aliens">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Define the alien element, which can appear multiple times -->
+                <xs:element name="alien" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="salary" type="xs:decimal"/>
+                        </xs:sequence>
+                        <xs:attribute name="aid" type="xs:string" use="required"/>
+                        <xs:attribute name="lang" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Define the friend element, which can appear once -->
+                <xs:element name="friend" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="nickname" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliens>
+    <alien aid="A1" lang="java">
+        <name>Prajwol</name>
+        <salary>100000</salary>
+    </alien>
+    <alien aid="A2" lang="javascript">
+        <name>Krishna</name>
+        <salary>2000000</salary>
+    </alien>
+    <alien aid="A2" lang="python">
+        <name>Krishna</name>
+        <salary>2000000</salary>
+    </alien>
+    <friend>
+        <name>Radha</name>
+        <nickname>Rani</nickname>
+    </friend>
+    
+</aliens>
