@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns="http://www.example.com/info"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.com/info personinfo.xsd">
+    <name>Sam</name>
+    <age>19</age>
+    <pincode>123</pincode>
+</person>
